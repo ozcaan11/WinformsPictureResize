@@ -36,6 +36,7 @@ simple winforms app that resize picture and save it to the database
             tmpGraphics.InterpolationMode = InterpolationMode.Bicubic;
             tmpGraphics.DrawImage(orgImage, 0, 0, tmpImageRszd.Width + 1, tmpImageRszd.Height + 1);
             Image rszdImage = tmpImageRszd;
+            
             return rszdImage;
         }
 
@@ -49,6 +50,7 @@ simple winforms app that resize picture and save it to the database
               tmpGraphics.InterpolationMode = InterpolationMode.Bicubic;
               tmpGraphics.DrawImage(orgImage, 0, 0, tmpImageRszd.Width + 1, tmpImageRszd.Height + 1);
               Image rszdImage = tmpImageRszd;
+              
               return rszdImage;
           }
 
